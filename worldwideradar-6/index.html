@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>WorldwideRadar — Live Global Conflict Intelligence Map</title>
+    <meta name="description" content="Real-time global conflict map and war tracker. Live military intelligence for Ukraine, Gaza, Sudan, Myanmar and 8+ active conflict zones. Powered by GDELT, UN OCHA, and Claude AI threat assessment."/>
+    <meta name="keywords" content="global conflict map, live war tracker, ukraine war live map, middle east conflict monitor, military intelligence, conflict tracker 2024, geopolitical risk, real-time war map, gaza conflict map, sudan war tracker"/>
+    <link rel="canonical" href="https://worldwideradar.com/"/>
+
+    <!-- OpenGraph -->
+    <meta property="og:type"        content="website"/>
+    <meta property="og:url"         content="https://worldwideradar.com/"/>
+    <meta property="og:title"       content="WorldwideRadar — Live Global Conflict Intelligence"/>
+    <meta property="og:description" content="Real-time global conflict map. 12 active conflict zones, AI threat assessment, live event data from GDELT and UN OCHA."/>
+    <meta property="og:image"       content="https://worldwideradar.com/og-image.png"/>
+    <meta property="og:site_name"   content="WorldwideRadar"/>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card"        content="summary_large_image"/>
+    <meta name="twitter:title"       content="WorldwideRadar — Live Global Conflict Intelligence"/>
+    <meta name="twitter:description" content="Real-time global conflict map. AI threat assessment. 12 active zones."/>
+    <meta name="twitter:image"       content="https://worldwideradar.com/og-image.png"/>
+
+    <!-- Structured Data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "WorldwideRadar",
+      "url": "https://worldwideradar.com",
+      "description": "Global conflict intelligence platform providing real-time data on active military conflicts worldwide.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://worldwideradar.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: Dataset -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "WorldwideRadar Conflict Activity Index",
+      "description": "Real-time conflict activity scores for 12 active global conflict zones, updated every 15 minutes from GDELT and UN OCHA data sources.",
+      "url": "https://worldwideradar.com/methodology",
+      "creator": { "@type": "Organization", "name": "WorldwideRadar" },
+      "license": "https://worldwideradar.com/methodology",
+      "variableMeasured": "Conflict Activity Index (CAI)",
+      "measurementTechnique": "OSINT aggregation from GDELT GEO, ReliefWeb, and RSS feeds"
+    }
+    </script>
+
+    <!-- Fonts preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
